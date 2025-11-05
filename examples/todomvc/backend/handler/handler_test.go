@@ -26,20 +26,20 @@ import (
 	"testing"
 	"time"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/commandhandler/bus"
-	gcpEventBus "github.com/looplab/eventhorizon/eventbus/gcp"
-	localEventBus "github.com/looplab/eventhorizon/eventbus/local"
-	"github.com/looplab/eventhorizon/eventhandler/waiter"
-	memoryEventStore "github.com/looplab/eventhorizon/eventstore/memory"
-	mongoEventStore "github.com/looplab/eventhorizon/eventstore/mongodb"
-	"github.com/looplab/eventhorizon/middleware/eventhandler/observer"
-	"github.com/looplab/eventhorizon/repo/memory"
-	"github.com/looplab/eventhorizon/repo/mongodb"
-	"github.com/looplab/eventhorizon/repo/version"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/commandhandler/bus"
+	gcpEventBus "github.com/vercly/eventhorizon/eventbus/gcp"
+	localEventBus "github.com/vercly/eventhorizon/eventbus/local"
+	"github.com/vercly/eventhorizon/eventhandler/waiter"
+	memoryEventStore "github.com/vercly/eventhorizon/eventstore/memory"
+	mongoEventStore "github.com/vercly/eventhorizon/eventstore/mongodb"
+	"github.com/vercly/eventhorizon/middleware/eventhandler/observer"
+	"github.com/vercly/eventhorizon/repo/memory"
+	"github.com/vercly/eventhorizon/repo/mongodb"
+	"github.com/vercly/eventhorizon/repo/version"
+	"github.com/vercly/eventhorizon/uuid"
 
-	"github.com/looplab/eventhorizon/examples/todomvc/backend/domains/todo"
+	"github.com/vercly/eventhorizon/examples/todomvc/backend/domains/todo"
 )
 
 func TestStaticFiles(t *testing.T) {

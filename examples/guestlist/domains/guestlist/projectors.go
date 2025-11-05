@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/eventhandler/projector"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/eventhandler/projector"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 // Invitation is a read model object for an invitation.

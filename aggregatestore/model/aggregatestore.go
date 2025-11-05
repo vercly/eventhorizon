@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 // AggregateStore is an aggregate store that uses a read write repo for

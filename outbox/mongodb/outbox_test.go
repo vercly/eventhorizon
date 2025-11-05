@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/looplab/eventhorizon/outbox"
+	"github.com/vercly/eventhorizon/outbox"
 )
 
 func init() {

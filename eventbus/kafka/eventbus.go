@@ -25,8 +25,8 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/codec/json"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/codec/json"
 )
 
 // EventBus is a local event bus that delegates handling of published events

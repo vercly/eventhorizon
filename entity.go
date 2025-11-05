@@ -14,7 +14,7 @@
 
 package eventhorizon
 
-import "github.com/looplab/eventhorizon/uuid"
+import "github.com/vercly/eventhorizon/uuid"
 
 // Entity is an item which is identified by an ID.
 //

@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/mocks"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/mocks"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 func init() {
@@ -44,16 +44,15 @@ const (
 // EventCodec should pass. It should manually be called from a test case in each
 // implementation:
 //
-//   func TestEventCodec(t *testing.T) {
-//       c := EventCodec{}
-//       expectedBytes = []byte("")
-//       codec.EventCodecAcceptanceTest(t, c, expectedBytes)
-//   }
-//
+//	func TestEventCodec(t *testing.T) {
+//	    c := EventCodec{}
+//	    expectedBytes = []byte("")
+//	    codec.EventCodecAcceptanceTest(t, c, expectedBytes)
+//	}
 func EventCodecAcceptanceTest(t *testing.T, c eh.EventCodec, expectedBytes []byte) {
 	// Marshaling.
 	ctx := mocks.WithContextOne(context.Background(), "testval")
-	id := uuid.MustParse("10a7ec0f-7f2b-46f5-bca1-877b6e33c9fd")
+	id := uuid.MustParse("353UPHbgF1BsG1CStFPnNARouzf")
 	timestamp := time.Date(2009, time.November, 10, 23, 0, 0, 0, time.UTC)
 	eventData := EventData{
 		Bool:    true,
@@ -129,16 +128,15 @@ type Nested struct {
 // CommandCodec should pass. It should manually be called from a test case in each
 // implementation:
 //
-//   func TestCommandCodec(t *testing.T) {
-//       c := CommandCodec{}
-//       expectedBytes = []byte("")
-//       codec.CommandCodecAcceptanceTest(t, c, expectedBytes)
-//   }
-//
+//	func TestCommandCodec(t *testing.T) {
+//	    c := CommandCodec{}
+//	    expectedBytes = []byte("")
+//	    codec.CommandCodecAcceptanceTest(t, c, expectedBytes)
+//	}
 func CommandCodecAcceptanceTest(t *testing.T, c eh.CommandCodec, expectedBytes []byte) {
 	// Marshaling.
 	ctx := mocks.WithContextOne(context.Background(), "testval")
-	id := uuid.MustParse("10a7ec0f-7f2b-46f5-bca1-877b6e33c9fd")
+	id := uuid.MustParse("353UPHbgF1BsG1CStFPnNARouzf")
 	timestamp := time.Date(2009, time.November, 10, 23, 0, 0, 0, time.UTC)
 	cmd := &Command{
 		ID:      id,

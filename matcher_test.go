@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/looplab/eventhorizon/uuid"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 func TestMatchEvents(t *testing.T) {

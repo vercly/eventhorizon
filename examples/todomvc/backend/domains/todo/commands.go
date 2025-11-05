@@ -15,8 +15,8 @@
 package todo
 
 import (
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 func init() {

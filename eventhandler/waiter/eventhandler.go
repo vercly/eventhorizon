@@ -17,8 +17,8 @@ package waiter
 import (
 	"context"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 // EventHandler waits for certain events to match a criteria.

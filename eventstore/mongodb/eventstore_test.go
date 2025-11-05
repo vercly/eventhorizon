@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/eventstore"
-	"github.com/looplab/eventhorizon/mocks"
-	"github.com/looplab/eventhorizon/uuid"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/eventstore"
+	"github.com/vercly/eventhorizon/mocks"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 func TestEventStoreIntegration(t *testing.T) {

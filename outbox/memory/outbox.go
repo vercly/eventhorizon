@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/jinzhu/copier"
-	bsonCodec "github.com/looplab/eventhorizon/codec/bson"
-	"github.com/looplab/eventhorizon/uuid"
+	bsonCodec "github.com/vercly/eventhorizon/codec/bson"
+	"github.com/vercly/eventhorizon/uuid"
 
-	eh "github.com/looplab/eventhorizon"
+	eh "github.com/vercly/eventhorizon"
 )
 
 var (

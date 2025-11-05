@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/looplab/eventhorizon/codec"
+	"github.com/vercly/eventhorizon/codec"
 )
 
 func TestEventCodec(t *testing.T) {
@@ -42,7 +42,7 @@ func TestEventCodec(t *testing.T) {
 		},
 		"timestamp": "2009-11-10T23:00:00Z",
 		"aggregate_type": "Aggregate",
-		"aggregate_id": "10a7ec0f-7f2b-46f5-bca1-877b6e33c9fd",
+		"aggregate_id": "353UPHbgF1BsG1CStFPnNARouzf",
 		"version": 1,
 		"metadata": { "num": 42 },
 		"context": { "context_one": "testval" }

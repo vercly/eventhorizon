@@ -2,7 +2,7 @@
 
 First off, thanks for taking the time to contribute!
 
-The following is a set of guidelines for contributing to Event Horizon and its packages, which are hosted in the [Looplab Organization](https://github.com/looplab) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to Event Horizon and its packages, which are hosted in the [vercly Organization](https://github.com/vercly) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 
@@ -22,7 +22,7 @@ The following is a set of guidelines for contributing to Event Horizon and its p
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Event Horizon Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [looplab@github.com](mailto:eventhorizon@looplab.se).
+This project and everyone participating in it is governed by the [Event Horizon Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [vercly@github.com](mailto:eventhorizon@vercly.se).
 
 ## How Can I Contribute?
 

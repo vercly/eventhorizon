@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/looplab/eventhorizon/codec"
+	"github.com/vercly/eventhorizon/codec"
 )
 
 func TestCommandCodec(t *testing.T) {
@@ -28,7 +28,7 @@ func TestCommandCodec(t *testing.T) {
 	{
 		"command_type": "CodecCommand",
 		"command": {
-			"ID": "10a7ec0f-7f2b-46f5-bca1-877b6e33c9fd",
+			"ID": "353UPHbgF1BsG1CStFPnNARouzf",
 			"Bool": true,
 			"String": "string",
 			"Number": 42,

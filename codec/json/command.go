@@ -16,10 +16,10 @@ package json
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 
-	eh "github.com/looplab/eventhorizon"
+	json "github.com/json-iterator/go"
+	eh "github.com/vercly/eventhorizon"
 )
 
 // CommandCodec is a codec for marshaling and unmarshaling commands

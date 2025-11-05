@@ -16,12 +16,12 @@ package json
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"time"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/uuid"
+	json "github.com/json-iterator/go"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/uuid"
 )
 
 // EventCodec is a codec for marshaling and unmarshaling events

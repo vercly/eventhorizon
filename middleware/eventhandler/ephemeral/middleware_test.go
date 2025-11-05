@@ -3,8 +3,8 @@ package ephemeral
 import (
 	"testing"
 
-	eh "github.com/looplab/eventhorizon"
-	"github.com/looplab/eventhorizon/mocks"
+	eh "github.com/vercly/eventhorizon"
+	"github.com/vercly/eventhorizon/mocks"
 )
 
 func TestInnerHandler(t *testing.T) {
